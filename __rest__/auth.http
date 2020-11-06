@@ -1,0 +1,18 @@
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "email" : "helflfgdo@gmail.com",
+    "password" : "abcd1234"
+}
+###
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "email" : "hellfgdo@gmail.com",
+    "password" : "abcd1234"
+}
+###
+GET  http://localhost:5000/api/auth/getme
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDQ1NzI5NzIsImV4cCI6MTYwNDU3NjU3MiwiYXVkIjoiN2FhZDBkNjItNDljYi00MzcwLWEwMDMtNTc1YzEwMjEzOGZiIn0.S9c3_Rtsm7k8nbA7FdX65wBFee3UWmu2QrpaKf2Jn9k
